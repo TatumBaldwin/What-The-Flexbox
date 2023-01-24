@@ -34,4 +34,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border:10px solid goldenrod;
   min-height:100vh;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 33.3333%;
+  padding: 10px;
+  border: 1px solid white;
 }
