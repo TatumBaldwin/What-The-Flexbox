@@ -31,6 +31,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 
 .container {
+  display:flex;
+  border: 10px solid mistyrose;
+  height: 100vw;
+  align-content:space-between;
+  
+}
+
+
+
+
+
+/*
+
+Flexbox alignment and centering with align items
+
+.container {
   display: flex;
   border: 10px solid mistyrose;
   align-items: center;
@@ -57,6 +73,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 {
   font-size: 77px;
 }
+*/
 
 
 
@@ -70,10 +87,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 
+/* 
+Flexbox alignment and centering with justify content
 
-
-
-/* .container {
+.container {
   display:flex;
   min-height: 100vw;
   justify-content:space-between;
