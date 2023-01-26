@@ -26,29 +26,31 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box4 { background:#34495e;}
+.box5 { background:#f1c40f;}
 
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
-  flex-wrap:wrap;
-  flex-direction:column;
-  border:10px solid goldenrod;
-  height:100vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 10px solid goldenrod;
+  height: 100vh;
 }
 
 .box {
-  flex-basis:250px;
-  flex-grow:1;
+  flex-basis: 250px;
+  flex-grow: 1;
 }
 
-
 .box3 {
-  flex-grow:5;
+  flex-grow: 5;
 }
 
 .box4 {
-  flex-basis:100px;  
+  flex-basis: 100px;
 }
-
-

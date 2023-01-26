@@ -68,9 +68,50 @@ section, footer {
 
 @media all and (max-width:1000px) {
 
+
 }
 
 
 @media all and (max-width:500px) {
   
+  .flex-nav li {
+    flex-basis: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper > * {
+    order: 999;
+  }
+
+  .flex-nav {
+    order: 1;
+  }
+
+  .toggleNav {
+    display: block;
+  }
+
+  .flex-nav ul.open {
+    display: none;
+  }
+  
+  .flex-nav ul.open {
+    display: flex;
+  }
+
+  .top {
+    order: 2;
+  }
+
+  .details {
+    order: 3;
+  }
+
+  .signup {
+    order: 4;
+  }
 }
